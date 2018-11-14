@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ company.name }}</title>
+  <meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    #outlook a { padding: 0; }
+    .ReadMsgBody { width: 100%; } .ExternalClass { width: 100%; }
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div, .ExternalClass * { line-height: 100%; }
+	
+	p {margin:0; padding:0; margin-bottom:0;}
+	
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;}
+a, a:link {color:#0000FF;text-decoration: underline;}  
+a:visited { color: #0080FF; text-decoration: none} 
+a:focus   { color: #00800FF; text-decoration: underline}  
+a:hover   { color: #0080FF; text-decoration: underline} 
+body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } 
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode:bicubic;height:auto;line-height:100%;outline-style:none }
+body { height:100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+ img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+   	   	  
+    
+    div[style*="margin: 16px 0"] {margin:0 !important; font-size:100% !important;}
+	
+	  *[x-apple-data-detectors], 
+        .x-gmail-data-detectors,    
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+	
+    
+    @media only screen and (max-width: 599px) 
+	{
+	.hide_for_mobile {display: none !important; width: 0px !important; height: 0px !important; overflow: hidden !important; position: absolute !important; line-height: 0px !important; font-size: 0px !important; }
+  
+    .font12 {font-size:12px!important}
+  
+    .font14 {font-size:14px!important; line-height:21px!important }
+  
+    .font18 {font-size:18px!important; line-height:24px!important }
+  
+     .border0 {border:0px!important }
+  
+      .content-table {width: 100% !important; }
+	  
+	   .content-table-30 {width: 30% !important;}
+	  
+	   .content-table-45 {width: 45% !important;
+      }
+	  
+	   .borderbottom { border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#b4b3bb; }
+	   .padding0 { padding:0px !important;}
+	  
+	   .padding10000 { padding:10px 0px 0px 0px !important;}
+	  
+	  	   .padding100100 { padding:10px 0px 10px 0px !important;
+      }
+	  
+	    .padding1010010 { padding:10px 10px 0px 10px !important;
+      }
+	  
+	     .padding20000 { padding:20px 0px 0px 0px !important;
+      }
+	  
+	   .padding200100 { padding:20px 0px 10px 0px !important;
+      }
+	  
+	 
+	   .padding010010 { padding:0px 10px 0px 10px !important;
+      }
+	  
+	   .padding05010 { padding:0px 5px 0px 10px !important;
+      }
+	  
+	   .padding01005 { padding:0px 10px 0px 5px !important;
+      }
+	  .padding5050 { padding:5px 0px 5px 0px !important;
+      }
+	  .padding5000 { padding:5px 0px 0px 0px !important;
+      }
+	  .padding100200 { padding:10px 0px 20px 0px !important;
+      }
+	  .padding50100 { padding:5px 0px 10px 0px !important;
+      }
+	  
+	    .padding00200 { padding:0px 0px 20px 0px !important;
+      }
+	  
+	    .padding00100 { padding:0px 0px 10px 0px !important; }
+	   .padding10 { padding:10px !important; }
+	  
+      .img-max{
+        width: 100% !important;
+        height: auto !important;
+      }
+  
+      .mobile-align-center {
+        text-align: center !important;
+        margin-right: auto;
+        margin-left: auto;
+      }
+	 
+  
+  .mobile-stack {
+	        display: block !important;
+            width: 100% !important;
+			max-width: 100%; 
+			height: auto; 
+			margin: 0 auto;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    }
+  </style>
+</head>
+<body style="margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; height:100% !important;width:100% !important;"><repeater><layout label='Second Subject Line, Pre-Header and Logo'>
+<div style="display:none;font-size:1px;color:#fefefe;line-height:1px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;"><singleline label='Second Subject Line Text'>{{ guest.guest_name }}, </singleline></div>     <table align="center" class="content-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+				  <td align="center" valign="top" bgcolor="#F2F2F2" class="padding0" style="padding:10px 10px 0px 10px;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+              <td class="padding10" align="left" valign="top" style="padding-top:10px;padding-bottom:10px;padding-right:0px;padding-left:0px;font-size:11px; line-height:14px;color:#333333;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline>
+{{ message.subject }}</singleline>
+</td>
+<td class="padding10" align="right" valign="top" style="padding-top:10px;padding-bottom:10px;padding-right:0px;padding-left:0px;font-size:11px; line-height:14px;color:#333333;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><webversion style="color:#333333;text-decoration:none;">View Online</webversion></td>
+               </tr> 
+</table><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+              <td align="center" valign="top" bgcolor="{{ branding.header_logo_bg_color }}" class="padding10" style="padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:#333333;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+   <a href="{{ company.website }}" target="_blank" style="color: {{ branding.header_logo_text_color }}"><img src="{{ branding.site_logo }}" alt="{{ company.name }}" width="200" style="display:block;text-decoration:none;" border="0"></a>
+</td>
+</tr> </table></td>
+</tr> </table></layout></repeater>
+<repeater><layout label='Property Info'>{% if message.message_type == "confirmation_email" or message.message_type == "check_in_details_release" or message.message_type == "check_in_details_release_2" or message.message_type == "house_documents" or message.message_type == "check_in_time" or message.message_type == "check_in_reminder" or message.message_type == "check_in_walkthrough" or message.message_type == "check_in_walkthrough_reminder" or message.message_type == "check_out_reminder_1" or message.message_type == "check_out_reminder_2" or message.message_type == "check_out_walkthrough" %}
+ <table align="center" class="content-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+				  <td align="center" valign="top" bgcolor="#F2F2F2" class="padding0" style="padding:0px 10px 0px 10px;">
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" bgcolor="#F7F7F7">
+              <tr>
+                     <td width="345" align="center" valign="top" bgcolor="#F7F7F7" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="left" cellpadding="0" cellspacing="0" class="content-table">
+                   <tr>
+                     
+<td align="left" valign="top" class="padding0 border0" style="padding-top:0px;padding-bottom:0px;padding-right:20px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><a href="{{ message.view_button.url }}" target="_blank" style="color:{{ branding.text_color }};text-decoration:underline;"><img src="{{ property.property_img }}" alt="{{ property.name }}" width="325" class="content-table" border="0" editable="true" style="border-radius:0px;width:325px;display:block; text-decoration:none;" /></a></td>
+                   </tr>
+                   </table></td>
+                     <td align="center" valign="middle" bgcolor="#F7F7F7" class="mobile-stack padding10" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="95%" border="0" align="left" cellpadding="0" cellspacing="0" class="content-table">
+                         <tr>
+                           <td colspan="2" align="left" valign="top" class="font18 mobile-align-center padding1010010" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:18px; line-height:24px;color:#333333;padding-top:20px;padding-bottom:0px;padding-right:0px;padding-left:0px;">{{ property.name }}</td>
+                         </tr>
+<tr>
+<td colspan="2" align="left" valign="top" class="font14 mobile-align-center padding10" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:#333333;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px;">{{ property.address.street1 }}<br>
+{{ property.address.city }}, {{ property.address.state }}
+</td>
+</tr>
+                         <tr>
+         <td width="50%" align="left" valign="top" class="font14 mobile-align-center  padding10" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif; font-size:14px; line-height:21px;color:#333333;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px; ">
+ Check-in<br>
+<strong>{{ event.start_date }}</strong>
+</td>
+<td width="50%" align="left" valign="top" class="font14 mobile-align-center  paddint10" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif; font-size:14px; line-height:21px;color:#333333;padding-top:5px;padding-bottom:5px;padding-right:0px;padding-left:0px; ">Check-out<br>
+<strong>{{ event.end_date }}</strong></td>
+                        </tr>
+                         <tr>
+                         <td colspan="2" align="left" valign="top" class="font14 mobile-align-center paddint10" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:#333333;padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">      <a href="{{ message.view_button.url }}" target="_blank">Review Your Reservation Details</a></td>
+                        </tr>
+                     </table></td>
+       </tr>
+          </table> </td>
+       </tr>
+	   </table>{% endif %}</layout></repeater><table align="center" class="content-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+				  <td align="center" valign="top" bgcolor="#F2F2F2" class="padding0" style="padding:0px 10px 0px 10px;"><repeater><layout label='Confirmation Email'>{% if message.message_type == "confirmation_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reservation Confirmation and Invitation</singleline>
+              </td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We look forward to having you stay with us at {{ property.name }}. I am sending you this Guestbook invitation so you can access details about your upcoming reservation, find resources about the property as well as a local guide for the surrounding area. <a href="{{ message.view_button.url }}" target="_blank">Please log into Guestbook</a> to get started. Let us know if you have any questions. Thanks, and we look forward to your arrival!
+</multiline><br>
+<br>
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+<strong><singleline>Check-out Day and Time:</singleline></strong> {{ event.end_date }}<br>
+  
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+			   {% endif %} 
+</layout></repeater><repeater><layout label='Check-in Details Release'>
+{% if message.message_type == "check_in_details_release" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Check-in Details</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Great news your trip is getting closer and we are releasing the details you need to be able to check in and arrive at your property, {{ property.name }}. <a href="{{ message.view_button.url }}" target="_blank">Log into your reservation to view more details</a>.</multiline><br>
+<br>
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+   {% if event.checkin_text == "" %}{% else %}
+<strong>
+<singleline>Check-in Notes:</singleline></strong> {{ event.checkin_text }}<br>
+{% endif %}
+<br>
+<br>
+<strong>Rental Address:</strong> {{ property.address.street1 }} {{ property.address.city }}, {{ property.address.state }}  {{ property.address.zipcode }} <br>
+  {% if event.address_note == "" %}{% else %}
+<strong><singleline>Address Note:</singleline></strong> {{ event.address_note }}<br>
+{% endif %}
+   {% if property.access_information.checkin_description == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ property.access_information.checkin_description }}<br>
+{% endif %}{{ event.start_date }}<br>
+ {% if event.access_credentials.access_extra or event.access_credentials.gate_code or event.access_credentials.alarm_number or event.access_credentials.alarm_note %} <br>
+<strong>Rental Access Information</strong><ul>
+ 
+ {% if event.access_credentials.gate_code == "" %}{% else %}<li><strong><singleline>Gate Code:</singleline></strong> {{ event.access_credentials.gate_code }} </li>   {% endif %} 
+ {% if event.access_credentials.alarm_number == "" %}{% else %}<li><strong><singleline>Alarm Number:</singleline></strong> {{  event.access_credentials.alarm_number }} </li>    {% endif %} 
+ {% if event.access_credentials.alarm_note == "" %}{% else %}<li><strong><singleline>Alarm Note:</singleline></strong> {{  event.access_credentials.alarm_note }} </li>   {% endif %} 
+ {% if event.home_access_note == "" %}{% else %}<li><strong>
+<singleline>Access Notes:</singleline></strong> {{ event.home_access_note }}</li>   {% endif %} {% if event.access_credentials.access_extra == "" %}{% else %}<li><strong><singleline>Access Extra:</singleline></strong> {{ event.access_credentials.access_extra }}</li>   {% endif %} </ul>
+{% endif %}
+ 	   {% if property.wifi_name %}<strong> Rental WiFi Information</strong>
+<ul>
+	   {% if property.wifi_name == "" %}{% else %}<li><strong><singleline>WiFi Name:</singleline></strong> {{ property.wifi_name }}</li>
+{% endif %} 
+{% if property.wifi_password == "" %}{% else %}<li><strong><singleline>WiFi Password:</singleline></strong> {{ property.wifi_password }} </li>   {% endif %} 
+{% if property.wifi_note == "" %}{% else %}<li><strong><singleline>WiFi Note:</singleline></strong> {{  property.wifi_note }} </li> {% endif %}</ul> {% endif %}
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout></repeater><repeater><layout label='Check-in Details Release 2'>
+{% if message.message_type == "check_in_details_release_2" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Check-in Details</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Great news your trip is getting closer and we are releasing the details you need to be able to check in and arrive at your property, {{ property.name }}. <a href="{{ message.view_button.url }}" target="_blank">Log into your reservation to view more details</a>.</multiline><br>
+<br>
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+   {% if event.checkin_text == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ event.checkin_text }}<br>
+{% endif %}
+<br>
+<br>
+<strong>Rental Address:</strong> {{ property.address.street1 }} {{ property.address.city }}, {{ property.address.state }}  {{ property.address.zipcode }} <br>
+  {% if event.address_note == "" %}{% else %}
+<strong><singleline>Address Note:</singleline></strong> {{ event.address_note }}<br>
+{% endif %}
+   {% if property.access_information.checkin_description == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ property.access_information.checkin_description }}<br>
+{% endif %}{{ event.start_date }}<br>
+ {% if event.access_credentials.access_extra or event.access_credentials.gate_code or event.access_credentials.alarm_number or event.access_credentials.alarm_note %} <br>
+<strong>Rental Access Information</strong><ul>
+ 
+ {% if event.access_credentials.gate_code == "" %}{% else %}<li><strong><singleline>Gate Code:</singleline></strong> {{ event.access_credentials.gate_code }} </li>   {% endif %} 
+ {% if event.access_credentials.alarm_number == "" %}{% else %}<li><strong><singleline>Alarm Number:</singleline></strong> {{  event.access_credentials.alarm_number }} </li>    {% endif %} 
+ {% if event.access_credentials.alarm_note == "" %}{% else %}<li><strong><singleline>Alarm Note:</singleline></strong> {{  event.access_credentials.alarm_note }} </li>   {% endif %} 
+ {% if event.home_access_note == "" %}{% else %}<li><strong>
+<singleline>Access Notes:</singleline></strong> {{ event.home_access_note }}</li>   {% endif %} {% if event.access_credentials.access_extra == "" %}{% else %}<li><strong><singleline>Access Extra:</singleline></strong> {{ event.access_credentials.access_extra }}</li>   {% endif %} </ul>
+{% endif %}
+ 	   {% if property.wifi_name %}<strong> Rental WiFi Information</strong>
+<ul>
+	   {% if property.wifi_name == "" %}{% else %}<li><strong><singleline>WiFi Name:</singleline></strong> {{ property.wifi_name }}</li>
+{% endif %} 
+{% if property.wifi_password == "" %}{% else %}<li><strong><singleline>WiFi Password:</singleline></strong> {{ property.wifi_password }} </li>   {% endif %} 
+{% if property.wifi_note == "" %}{% else %}<li><strong><singleline>WiFi Note:</singleline></strong> {{  property.wifi_note }} </li> {% endif %}</ul> {% endif %}
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>	   
+{% endif %}  
+</layout></repeater><repeater><layout label='House Documents'>
+{% if message.message_type == "house_documents" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Review Your House Documents</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Before you arrive at your vacation home we have some information for you to review and acknowledge. If you have any questions please don't hesitate to ask us. </multiline><br>
+<br>
+  {% if property.house_rules_description == "" %}{% else %}
+<strong><singleline>Your House Documents:</singleline></strong> {{ property.house_rules_description }}<br>
+{% endif %}</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+{% endif %} 
+</layout></repeater><repeater><layout label='Check-in Time'>
+{% if message.message_type == "check_in_time" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>It's Time to Check-in to Your Reservation</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Great news, it's {{ event.start_date }} and it's time to check-in to your reservation at {{ property.name }}. Below are all the instructions to get into your property or <a href="{{ message.view_button.url }}" target="_blank">click on the link to go into your reservation</a>. Enjoy your trip!! </multiline><br>
+<br>
+<strong>Rental Address:</strong> {{ property.address.street1 }} {{ property.address.city }}, {{ property.address.state }}  {{ property.address.zipcode }} <br>
+  {% if event.address_note == "" %}{% else %}
+<strong><singleline>Address Note:</singleline></strong> {{ event.address_note }}<br>
+{% endif %}
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+   {% if property.access_information.checkin_description == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ property.access_information.checkin_description }}<br>
+{% endif %}{{ event.start_date }}<br>
+   
+{% if event.checkin_text == "" %}{% else %}
+<strong>
+<singleline>Check-in Note:</singleline></strong> {{ event.checkin_text  }}<br>
+{% endif %}
+ {% if event.access_credentials.access_extra or event.access_credentials.gate_code or event.access_credentials.alarm_number or event.access_credentials.alarm_note %} <br>
+<strong>Rental Access Information</strong><ul>
+ 
+ {% if event.access_credentials.gate_code == "" %}{% else %}<li><strong><singleline>Gate Code:</singleline></strong> {{ event.access_credentials.gate_code }} </li>   {% endif %} 
+ {% if event.access_credentials.alarm_number == "" %}{% else %}<li><strong><singleline>Alarm Number:</singleline></strong> {{  event.access_credentials.alarm_number }} </li>    {% endif %} 
+ {% if event.access_credentials.alarm_note == "" %}{% else %}<li><strong><singleline>Alarm Note:</singleline></strong> {{  event.access_credentials.alarm_note }} </li>   {% endif %} 
+ {% if event.home_access_note == "" %}{% else %}<li><strong>
+<singleline>Access Notes:</singleline></strong> {{ event.home_access_note }}</li>   {% endif %} {% if event.access_credentials.access_extra == "" %}{% else %}<li><strong><singleline>Access Extra:</singleline></strong> {{ event.access_credentials.access_extra }}</li>   {% endif %} </ul>
+{% endif %}
+ 	   {% if property.wifi_name %}<strong> Rental WiFi Information</strong>
+<ul>
+	   {% if property.wifi_name == "" %}{% else %}<li><strong><singleline>WiFi Name:</singleline></strong> {{ property.wifi_name }}</li>
+{% endif %} 
+{% if property.wifi_password == "" %}{% else %}<li><strong><singleline>WiFi Password:</singleline></strong> {{ property.wifi_password }} </li>   {% endif %} 
+{% if property.wifi_note == "" %}{% else %}<li><strong><singleline>WiFi Note:</singleline></strong> {{  property.wifi_note }} </li> {% endif %}</ul> {% endif %} </td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+{% endif %}
+</layout></repeater><repeater><layout label='Check-in Reminder'>
+{% if message.message_type == "check_in_reminder" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reminder: Check-in to Your Reservation</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Great news, it's {{ event.start_date }} and it's time to check-in to your reservation at {{ property.name }}. Below are all the instructions to get into your property or <a href="{{ message.view_button.url }}" target="_blank">click on the link to go into your reservation</a>. Enjoy your trip!! </multiline><br>
+<br>
+<strong>Rental Address:</strong> {{ property.address.street1 }} {{ property.address.city }}, {{ property.address.state }}  {{ property.address.zipcode }} <br>
+  {% if event.address_note == "" %}{% else %}
+<strong><singleline>Address Note:</singleline></strong> {{ event.address_note }}<br>
+{% endif %}
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+   {% if property.access_information.checkin_description == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ property.access_information.checkin_description }}<br>
+{% endif %}{{ event.start_date }}<br>
+   
+{% if event.checkin_text == "" %}{% else %}
+<strong>
+<singleline>Check-in Note:</singleline></strong> {{ event.checkin_text  }}<br>
+{% endif %}
+ {% if event.access_credentials.access_extra or event.access_credentials.gate_code or event.access_credentials.alarm_number or event.access_credentials.alarm_note %} <br>
+<strong>Rental Access Information</strong><ul>
+ 
+ {% if event.access_credentials.gate_code == "" %}{% else %}<li><strong><singleline>Gate Code:</singleline></strong> {{ event.access_credentials.gate_code }} </li>   {% endif %} 
+ {% if event.access_credentials.alarm_number == "" %}{% else %}<li><strong><singleline>Alarm Number:</singleline></strong> {{  event.access_credentials.alarm_number }} </li>    {% endif %} 
+ {% if event.access_credentials.alarm_note == "" %}{% else %}<li><strong><singleline>Alarm Note:</singleline></strong> {{  event.access_credentials.alarm_note }} </li>   {% endif %} 
+ {% if event.home_access_note == "" %}{% else %}<li><strong>
+<singleline>Access Notes:</singleline></strong> {{ event.home_access_note }}</li>   {% endif %} {% if event.access_credentials.access_extra == "" %}{% else %}<li><strong><singleline>Access Extra:</singleline></strong> {{ event.access_credentials.access_extra }}</li>   {% endif %} </ul>
+{% endif %}
+ 	   {% if property.wifi_name %}<strong> Rental WiFi Information</strong>
+<ul>
+	   {% if property.wifi_name == "" %}{% else %}<li><strong><singleline>WiFi Name:</singleline></strong> {{ property.wifi_name }}</li>
+{% endif %} 
+{% if property.wifi_password == "" %}{% else %}<li><strong><singleline>WiFi Password:</singleline></strong> {{ property.wifi_password }} </li>   {% endif %} 
+{% if property.wifi_note == "" %}{% else %}<li><strong><singleline>WiFi Note:</singleline></strong> {{  property.wifi_note }} </li> {% endif %}</ul> {% endif %} </td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+{% endif %}  
+</layout></repeater><repeater><layout label='Check-in Reminder 2'>
+{% if message.message_type == "check_in_reminder_2" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reminder: Check-in to Your Reservation</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Great news, it's {{ event.start_date }} and it's time to check-in to your reservation at {{ property.name }}. Below are all the instructions to get into your property or <a href="{{ message.view_button.url }}" target="_blank">click on the link to go into your reservation</a>. Enjoy your trip!! </multiline><br>
+<br>
+<strong>Rental Address:</strong> {{ property.address.street1 }} {{ property.address.city }}, {{ property.address.state }}  {{ property.address.zipcode }} <br>
+  {% if event.address_note == "" %}{% else %}
+<strong><singleline>Address Note:</singleline></strong> {{ event.address_note }}<br>
+{% endif %}
+<strong><singleline>Check-in Day and Time:</singleline></strong> {{ event.start_date }}<br>
+   {% if property.access_information.checkin_description == "" %}{% else %}
+<strong><singleline>Check-in Description:</singleline></strong> {{ property.access_information.checkin_description }}<br>
+{% endif %}{{ event.start_date }}<br>
+   
+{% if event.checkin_text == "" %}{% else %}
+<strong>
+<singleline>Check-in Note:</singleline></strong> {{ event.checkin_text  }}<br>
+{% endif %}
+ {% if event.access_credentials.access_extra or event.access_credentials.gate_code or event.access_credentials.alarm_number or event.access_credentials.alarm_note %} <br>
+<strong>Rental Access Information</strong><ul>
+ 
+ {% if event.access_credentials.gate_code == "" %}{% else %}<li><strong><singleline>Gate Code:</singleline></strong> {{ event.access_credentials.gate_code }} </li>   {% endif %} 
+ {% if event.access_credentials.alarm_number == "" %}{% else %}<li><strong><singleline>Alarm Number:</singleline></strong> {{  event.access_credentials.alarm_number }} </li>    {% endif %} 
+ {% if event.access_credentials.alarm_note == "" %}{% else %}<li><strong><singleline>Alarm Note:</singleline></strong> {{  event.access_credentials.alarm_note }} </li>   {% endif %} 
+ {% if event.home_access_note == "" %}{% else %}<li><strong>
+<singleline>Access Notes:</singleline></strong> {{ event.home_access_note }}</li>   {% endif %} {% if event.access_credentials.access_extra == "" %}{% else %}<li><strong><singleline>Access Extra:</singleline></strong> {{ event.access_credentials.access_extra }}</li>   {% endif %} </ul>
+{% endif %}
+ 	   {% if property.wifi_name %}<strong> Rental WiFi Information</strong>
+<ul>
+	   {% if property.wifi_name == "" %}{% else %}<li><strong><singleline>WiFi Name:</singleline></strong> {{ property.wifi_name }}</li>
+{% endif %} 
+{% if property.wifi_password == "" %}{% else %}<li><strong><singleline>WiFi Password:</singleline></strong> {{ property.wifi_password }} </li>   {% endif %} 
+{% if property.wifi_note == "" %}{% else %}<li><strong><singleline>WiFi Note:</singleline></strong> {{  property.wifi_note }} </li> {% endif %}</ul> {% endif %} </td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+{% endif %}  
+</layout></repeater><repeater><layout label='Check-in Walkthrough'>
+{% if message.message_type == "check_in_walkthrough" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Check-in Walk-through Checklist for <br class="hide_for_mobile">
+ {{ property.name }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We want to know that everything is absolutely perfect for your stay. We have put together a quick checklist for you to tell us if everything is up to spec. If you have any issue please let us know using the walk-through form or contact us immediately at {{ company.email }} or call us at {{ company.phone }}.</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink>
+<singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %} 
+</layout></repeater><repeater><layout label='Check-in Walkthrough Reminder'>
+{% if message.message_type == "check_in_walkthrough_reminder" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reminder: Your Check-in Walk-through Checklist for <br class="hide_for_mobile">
+ {{ property.name }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We want to know that everything is absolutely perfect for your stay. We have put together a quick checklist for you to tell us if everything is up to spec. If you have any issue please let us know using the walk-through form or contact us immediately at {{ company.email }} or call us at {{ company.phone }}.</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink>
+<singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %} 
+    </layout></repeater><repeater><layout label='Check-out Reminder 1'>
+{% if message.message_type == "check_out_reminder_1" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Check-out is Tomorrow</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We are sending you this reminder to let you know that check- out is tomorrow, {{ event.end_date }}. If you need any assistance making arrangement for your departure please don't hesitate to ask. </multiline><br>
+<br>
+<strong><singleline>Check-out Day and Time:</singleline></strong> {{ event.end_date }}<br>
+   {% if event.checkout_text == "" %}{% else %}
+<strong><singleline>Check-out Notes:</singleline></strong> {{ event.checkout_text }}<br>
+{% endif %} {% if property.access_information.checkout_description == "" %}{% else %}
+<strong><singleline>Check-out Description:</singleline></strong> {{ property.access_information.checkout_description }}<br>
+{% endif %}
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+         </layout></repeater><repeater><layout label='Check-out Reminder 2'>
+{% if message.message_type == "check_out_reminder_2" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reminder: Check-out  is Today</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+This is a reminder that check-out is today, {{ event.end_date }}. We have put a walk-through checklist together to simplify your check out process.  </multiline><br>
+<br>
+<strong><singleline>Check-out Day and Time:</singleline></strong> {{ event.end_date }}<br>
+   {% if event.checkout_text == "" %}{% else %}
+<strong><singleline>Check-out Notes:</singleline></strong> {{ event.checkout_text }}<br>
+{% endif %} 
+   {% if property.access_information.checkout_description == "" %}{% else %}
+<strong><singleline>Check-out Description:</singleline></strong> {{ property.access_information.checkout_description }}<br>
+{% endif %}
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout></repeater><repeater><layout label='Check-out Walkthrough'>
+{% if message.message_type == "check_out_walkthrough" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Check-out Walk-through Checklist for <br class="hide_for_mobile">
+ {{ property.name }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We are sad to see you go and wanted to thank you again for booking one of our amazing properties.  We hope you had  a great stay.  Please click the button below to start the check out process. Thanks!</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink>
+<singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+     </layout></repeater><repeater><layout label='Review'>
+{% if message.message_type == "review" %}    
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Please Review Your Stay</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+We hope that you enjoyed your stay and will come back to see us soon. In an effort to know that we have exceeded your expectation on your stay we are asking you to fill out our quick review. Thank you for staying with us and we look forward to having you back soon! </multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink>
+<singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+               </layout></repeater><repeater><layout label='Pool Service'>
+{% if message.message_type == "pool_service" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Pool Service</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},<br>
+<br>
+Quick reminder your pool is scheduled to be serviced today. <br>
+<br>
+</multiline>
+  {% if property.pool_service.pool_service_pickup == "" %}{% else %}
+			  <strong><singleline>Pickup:</singleline></strong> 
+			  {{ property.pool_service.pool_service_pickup }} <br>
+ {% endif %} 
+			  
+			   {% if property.pool_service.pool_service_reminder == "" %}{% else %}
+			  <strong>
+<singleline>Reminder:</singleline></strong> 
+			  {{ property.pool_service.pool_service_reminder }} <br>
+ {% endif %} 
+			  
+			   {% if property.pool_service.pool_service_note == "" %}{% else %}
+			  <strong>
+<singleline>Note:</singleline></strong> 
+			  {{ property.pool_service.pool_service_note }} <br>
+ {% endif %} 
+			  
+			   {% if property.pool_service.pool_service_days == "" %}{% else %}
+			  <strong>
+<singleline>Days:</singleline></strong> 
+			  {{ property.pool_service.pool_service_days }} <br>
+ {% endif %} 
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+     </layout></repeater><repeater><layout label='Garbage Service'>
+{% if message.message_type == "garbage_service" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Garbage Service</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Quick reminder your garbage service is scheduled  today. Please remember to take out your trash today for pick up.</multiline><br>
+<br>
+{% if property.garbage_service.garbage_service_pickup == "" %}{% else %}
+			  <strong><singleline>Pickup:</singleline></strong> 
+			  {{ property.garbage_service.garbage_service_pickup }} <br>
+ {% endif %} 
+			  
+			   {% if property.garbage_service.garbage_service_reminder == "" %}{% else %}
+			  <strong>
+<singleline>Reminder:</singleline></strong> 
+			  {{ property.garbage_service.garbage_service_reminder }} <br>
+ {% endif %} 
+			  
+			   {% if property.garbage_service.garbage_service_note == "" %}{% else %}
+			  <strong>
+<singleline>Note:</singleline></strong> 
+			  {{ property.garbage_service.garbage_service_note }} <br>
+ {% endif %} 
+			  
+			   {% if property.garbage_service.garbage_service_days == "" %}{% else %}
+			  <strong>
+<singleline>Days:</singleline></strong> 
+			  {{ property.garbage_service.garbage_service_days }} <br>
+ {% endif %} 
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+     </layout></repeater><repeater><layout label='Landscaping Service'>
+{% if message.message_type == "landscaping_service" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Landscaping Service</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Quick reminder your landscaping service is scheduled  today.</multiline><br>
+<br>
+{% if property.landscaping_service.landscaping_service_pickup == "" %}{% else %}
+			  <strong><singleline>Pickup:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_pickup }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_reminder == "" %}{% else %}
+			  <strong>
+<singleline>Reminder:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_reminder }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_note == "" %}{% else %}
+			  <strong>
+<singleline>Note:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_note }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_days == "" %}{% else %}
+			  <strong>
+<singleline>Days:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_days }} <br>
+ {% endif %} </td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+        </layout></repeater><repeater><layout label='Recycling Service'>
+{% if message.message_type == "recycling_service" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Recycling Service</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Quick reminder your recycling service is scheduled today. Please remember to take out your recycling today for pick up. </multiline><br>
+<br>
+{% if property.landscaping_service.landscaping_service_pickup == "" %}{% else %}
+			  <strong><singleline>Pickup:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_pickup }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_reminder == "" %}{% else %}
+			  <strong>
+<singleline>Reminder:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_reminder }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_note == "" %}{% else %}
+			  <strong>
+<singleline>Please Note:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_note }} <br>
+ {% endif %} 
+			  
+			   {% if property.landscaping_service.landscaping_service_days == "" %}{% else %}
+			  <strong>
+<singleline>Service is On:</singleline></strong> 
+			  {{ property.landscaping_service.landscaping_service_days }} <br>
+ {% endif %}
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+               </layout></repeater><repeater><layout label='Custom Alert 1'>
+{% if message.message_type == "custom_alert_1" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ property.custom_notification_1.title }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+{{ property.custom_notification_1.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout></repeater><repeater><layout label='Custom Alert 2'>
+{% if message.message_type == "custom_alert_2" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ property.custom_notification_2.title }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+{{ property.custom_notification_2.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+        </layout></repeater><repeater><layout label='Custom Alert 3'>
+{% if message.message_type == "custom_alert_3" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ property.custom_notification_3.title }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+{{ property.custom_notification_3.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout></repeater><repeater><layout label='Custom Aalert 4'>
+{% if message.message_type == "custom_alert_4" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ property.custom_notification_4.title }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+{{ property.custom_notification_4.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %} 
+   </layout></repeater><repeater><layout label='Guest to Manager Message'>
+{% if message.message_type == "guest_to_manager_message" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">{% if company.photo_url == "" %}{% else %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table>{% endif %}</td>
+</tr>
+</table>
+			   
+{% endif %} 
+  
+   </layout></repeater><repeater><layout label='Manager to Guest Message'>
+{% if message.message_type == "manager_to_guest_message" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %} 
+  
+   </layout></repeater><repeater><layout label='Manager to Manager Message'>
+{% if message.message_type == "manager_to_manager_message" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout></repeater><repeater><layout label='Guest to Guest Message'>
+{% if message.message_type == "guest_to_guest_message" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+  </layout></repeater><repeater><layout label='Internal Message'>
+{% if message.message_type == "internal_message" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+    </layout></repeater><repeater><layout label='Guest Share Invite'>
+{% if message.message_type == "guest_share_invite" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ guest.guest_name }} has invited you to join a trip. Please join them on {{ company.name }}'s Guestbook to plan our upcoming trip! It will make planning our trip so much easier.</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+ </layout></repeater><repeater><layout label='Guest Share Invite'>
+{% if message.message_type == "resend_signup_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ guest.guest_name }} has invited you to join a trip. Please join them on {{ company.name }}'s Guestbook to plan our upcoming trip! It will make planning our trip so much easier.</multiline></td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+ </layout></repeater><repeater><layout label='A Guest Has Joined'>
+{% if message.message_type == "guest_has_joined" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline>{{ guest.guest_name }} has joined your trip. Let's welcome them to your trip!</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+ </layout></repeater><repeater><layout label='A Guest Has Joined Reminder'>
+{% if message.message_type == "invited_you_to_guestbook_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline>
+{{ guest.guest_name }} has joined your trip. Let's welcome them to your trip! </multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+  </layout></repeater><repeater><layout label='Reservation Cancellation'>
+{% if message.message_type == "reservation_cancellation" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Reservation  Cancellation</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+It looks like your trip has been cancelled. We hope you to see you book with us again soon. </multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+      </layout></repeater><repeater><layout label='Door Code Update'>
+{% if message.message_type == "door_code_update" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Door Code Update</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Dear {{ guest.guest_name }},
+<br>
+<br>
+Your property has an update. Please log in to see the change.</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+         </layout></repeater><repeater><layout label='Service Request'>
+{% if message.message_type == "service_request" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.subject }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline></td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">{% if company.photo_url == "" %}{% else %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table>{% endif %}</td>
+</tr>
+</table>
+			   
+{% endif %}  
+       </layout></repeater><repeater><layout label='Add New Company User Email'>
+{% if message.message_type == "add_new_company_user_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Add New Company User Email</singleline></td>
+			  </tr>
+                <tr>
+              <td align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> 
+Hi {{user}},<br>
+<br>
+{{ message.subject }} Please log in to set up your account.</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+  </layout></repeater><repeater><layout label='Extra Account Setup Email'>
+{% if message.message_type == "extra_account_setup_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Extra Account Setup Email</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline></td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+     </layout></repeater><repeater><layout label='New Properties Iimported From Email'>
+{% if message.message_type == "new_properties_imported_from_email" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>New Properties Imported From Email</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> Exciting news you have new properties added to your account. Log in to activate them. </multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout> </repeater><repeater><layout label='Password Reset"'>
+{% if message.message_type == "password_reset" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>Your Password Has Been Reset</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> We have received a request to reset your password. 
+<br>
+You can reset your password by clicking the link below:</multiline>
+</td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout> </repeater>
+<repeater><layout label='Review Manager'>
+{% if message.message_type == "review_manager" %}
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table" style="border-bottom: 1px solid #DADADA"> <tr>
+			  <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:30px;padding-bottom:5px;padding-right:20px;padding-left:20px;font-size:28px; line-height:36px;color:{{ branding.text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><singleline label='Headline'>{{ message.title }}</singleline></td>
+			  </tr>
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:15px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;color:{{ branding.text_color }};"><multiline> {{ message.body }}</multiline></td>
+</tr> 
+                <tr>
+              <td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">
+<div><!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ message.view_button.url }}" cm_dontconvertlink  style="height:50px;v-text-anchor:middle;width:320px;" arcsize="10%" stroke="f" fillcolor="{{ branding.button_bg_color }}">
+    <w:anchorlock/>
+    <center>
+  <![endif]-->
+      <a href="{{ message.view_button.url }}" target="_blank" style="background-color:{{ branding.button_bg_color }};border-radius:4px;color:{{ branding.button_text_color }};display:inline-block;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px;line-height:50px;text-align:center;text-decoration:none;width:320px;-webkit-text-size-adjust:none;" cm_dontconvertlink><singleline label='Button Text and Link'>{{ message.view_button.title }}</singleline></a>
+  <!--[if mso]>
+    </center>
+  </v:roundrect>
+<![endif]--></div>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" bgcolor="#FFFFFF" style="padding-top:10px;padding-bottom:20px;padding-right:0px;padding-left:0px;font-size:14px; line-height:21px;color:{{ branding.button_text_color }};font-family:Arial, Helvetica Neue, Helvetica, sans-serif;"><table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+<td width="50%" align="right" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table border="0" align="right" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+       <td align="center" valign="middle" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;"><a href="{{ company.website }}" target="_blank"><img alt="{{ company.invited_by }}" src="{{ company.photo_url }}" width="100" style="border: 0;display: block;height: auto;" border="0" /></a></td>
+</tr>
+</table></td>
+<td width="50%" align="left" valign="middle" bgcolor="#FFFFFF" class="mobile-stack" style="padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+       <tr>
+<td width="100%" align="left" valign="top" class="font14 mobile-align-center" style="font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:14px; line-height:21px;color:{{ branding.text_color }};padding-top:5px;padding-bottom:20px;padding-right:0px;padding-left:0px;">
+<strong style="font-size: 16px"><singleline>{{ company.invited_by }}</singleline></strong><br>
+<a href="{{ company.website }}" target="_blank" cm_dontconvertlink><singleline>{{ company.name }}</singleline></a>
+</td>
+</tr>
+       </table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+			   
+{% endif %}  
+</layout> </repeater>
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="content-table">
+                <tr>
+              <td align="center" valign="top" style="padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:12px; line-height:16px;color:#333333;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;">{{ company.name }} | {{ company.phone }}<br>
+{{ company.address }}, {{ company.city }} {{ company.state }} {{ company.zipcode }} 
+<unsubscribe style="color:#f2f2f2;text-decoration:underline;">Unsubscribe Instantly</unsubscribe>
+</td>
+</tr>   <tr>
+              <td align="center" valign="top" style="padding-top:20px;padding-bottom:20px;padding-right:20px;padding-left:20px;font-size:12px; line-height:16px;color:#333333;font-family:Arial, Helvetica Neue, Helvetica, sans-serif; border-top: 1px solid #DADADA"><a href="{{ company.website }}" target="_blank"><img alt="MyGuestbook" src="/3bf/c39/myguestbooklogo.png" width="156" style="border: 0;display: block;height: auto;" border="0" /></a>
+</td>
+</tr> </table>
+</td>
+       </tr>
+	   </table>
+				 
+</body>
+</html>
